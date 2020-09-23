@@ -1,0 +1,68 @@
+[Root]
+Most Recent Package=Resource Handler Dep
+
+
+[Package|Resource Handler Dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\Practice\CustomResource
+
+[Package|Resource Handler Dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Resource Handler Dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Resource Handler Dep|Files Found]
+
+[Package|Resource Handler Dep|Files Released]
+
+[Package|Resource Handler Dep|Missing Dependency Information]
+C:\WINNT\system32\shlwapi.dll=
+
+[Package|Resource Handler Dep|Out-of-Date Dependency Information]
+
+[Package|Resource Handler Dep|Files Added]
+
+[Package|Resource Handler Dep|Files Removed]
+
+[Package|Resource Handler Dep|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Practice\CustomResource\CRESHNDR.dll=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\shlwapi.dll=Yes
+
+[Package|Resource Handler Dep|Configure Registry Files]
+Applicable=
+
+[Package|Resource Handler Dep|Configure Remote Servers]
+Applicable=
+
+[Package|Resource Handler Dep|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Practice\CustomResource\CRESHNDR.dll=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\shlwapi.dll=$(WinSysPath)
+
+[Package|Resource Handler Dep|Configure Shared Files]
+Applicable=
+
+[Package|Resource Handler Dep|DepFile]
+DepCabFile=CRESHNDR.CAB
+DepCabRun=CRESHNDR.INF
+
+[Package|Resource Handler Dep|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\Practice\CustomResource
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Practice\CustomResource
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\Practice\CustomResource\CRESHNDR.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
